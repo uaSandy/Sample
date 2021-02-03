@@ -1,27 +1,26 @@
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
-NhAAAAAwEAAQAAAQEAs9PsY1DmHWHTH4gAjWU0rmjZdc2UUrs5usy6ysBTpPwdMDfEnpfL
-SDLt9Il6MOrFwAGlZzUZpME3xU02N7VaIQ93yW2vPfNpQb40eWCIV63fb3okdhM0G1+Os4
-zmkayDxlbikxKLSs1LBfm0M5ZzdWJcxr6xrUpILBZI887InvAu2hEtI9+9+nqBc1RviLbM
-LeTgnJntLbYLbmDpFVdvHzzCJgqA7UAeqZMEHz0FQieLxpqeFdtKdHJO4v0rPtlnhwL/Z/
-338goud/1Cqvf+vu3SQmpXr1o0KUpyNXa6PeB4jee+2ZVzoVMY2OA/J6KrjBL5xrQqxWDr
-e4Q4+fwWowAAA9CpQX7XqUF+1wAAAAdzc2gtcnNhAAABAQCz0+xjUOYdYdMfiACNZTSuaN
-l1zZRSuzm6zLrKwFOk/B0wN8Sel8tIMu30iXow6sXAAaVnNRmkwTfFTTY3tVohD3fJba89
-82lBvjR5YIhXrd9veiR2EzQbX46zjOaRrIPGVuKTEotKzUsF+bQzlnN1YlzGvrGtSkgsFk
-jzzsie8C7aES0j3736eoFzVG+Itswt5OCcme0ttgtuYOkVV28fPMImCoDtQB6pkwQfPQVC
-J4vGmp4V20p0ck7i/Ss+2WeHAv9n/ffyCi53/UKq9/6+7dJCalevWjQpSnI1dro94HiN57
-7ZlXOhUxjY4D8noquMEvnGtCrFYOt7hDj5/BajAAAAAwEAAQAAAQA6Hx7iIr2ddYbFRDHZ
-gYJ7dIwElUOBUd4g0Bb3fR4Lzyin8v5ru+gKF9vtE5oYwWjU3DNXnkQBiim6bXA+pTDSSq
-uOwRLI1SmKBC31pQusOxhicXnjZ+WJi2MWCU5kevvEWUS2AGJg9OVwsvpZSiFbKUWPPwcy
-WTXmefVuR8F0DOXnArh+ziWJoCeAEiqW5il1hB3Cbv3oLX6JZlKMl18LOlhueNIoySaMzZ
-ZLe7dHEr7PnyT17HO+YlCfuwlQAQwSen2F2PwQ7FSA8v3zRFru+Bpom1oPfiMuFlMxbOKL
-Vpuv5lmuUMjcvEACs2CVV2hbu2r6N4L0xjIUGOpBaYEBAAAAgQDI5bbIeBLQ3b3USruE4E
-ocGcNQfM6IatPpn17AE68ETAKVaho3UhNQWtDNVmlzc+5wOC9YhRPdDSZmROjbzXGhoFgq
-DNqxFhrLen4lMNeHzWvOehMF3zuD6WRobZVYmxL9k13otBJDHu5hu9K/gwnKr//2gVYJKL
-WXpNSHBqJa1gAAAIEA6864WnFtXiP9cZlgdyAMzVdZS+iUtSguRMMWcCceQVI9ba3TBDq3
-bhXZsyUXMCCK87jeTxsV8XbA632+XAvOJSgiSt9EHO5vH4NYLr6keRti20GF+HNIVZTkwG
-gpC8JniJxsdQW7yov6awyJH84TCbMiBxxj7aTuTLaf44eAs8EAAACBAMM6Cei/RikdzE56
-F88DsNTnivw/Q1wMEFxBaNUV12K0clFXcwOH1NBQkuszy+3+g7LhKfeoydLH6SPAYDnU0b
-rxkU1LLedd589L9VDz9fOs7tlP9bgUKQqwnH/80texJK/0jQkKOvwYEHg/NeU1cvG+mNWX
-Z8qyESBZSu/4r1NjAAAAFWFkbWluQERFU0tUT1AtREtFSDVHRQECAwQF
------END OPENSSH PRIVATE KEY-----
+
+8975732102@8975732102-PC MINGW64 /b/repo
+$ git init
+Initialized empty Git repository in B:/repo/.git/
+
+8975732102@8975732102-PC MINGW64 /b/repo (master)
+$ git remote add origin https://github.com/uaSandy/newrepo.git
+
+8975732102@8975732102-PC MINGW64 /b/repo (master)
+$ git add .
+
+8975732102@8975732102-PC MINGW64 /b/repo (master)
+$ git commit -m "1st end commit"
+[master (root-commit) c55229f] 1st end commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 dsd.txt
+
+8975732102@8975732102-PC MINGW64 /b/repo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 209 bytes | 16.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/uaSandy/newrepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
